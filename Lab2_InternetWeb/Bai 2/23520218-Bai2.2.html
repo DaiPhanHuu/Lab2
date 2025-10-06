@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--23520218-PhanHuuDai-->
+<html lang="en">
+<!--23520218-PhanHuuDai-->
+<head>
+  <meta charset="utf-8">
+  <title>Table template</title>
+  <link href="minitable-table.css" rel="stylesheet" type="text/css">
+</head>
+<!--23520218-PhanHuuDai-->
+<body>
+  <table>
+    <h1>Planets Data</h1>
+    <caption>Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).</caption>
+    <thead>
+      <tr>
+        <th colspan="2"></th>
+        <th id="name" colspan="1">Name</th>
+        <th id="mass" colspan="1">Mass<br>(10<sup>24</sup>kg)</th>
+        <th id="diameter" colspan="1">Diameter<br>(km)</th>
+        <th id="density" colspan="1">Density<br>(km/m<sup>2</sup>)</th>
+        <th id="gravity" colspan="1">Gravity<br>(m/s<sup>2</sup>)</th>
+        <th id="daylenght" colspan="1">Length of day<br>(hours)</th>
+        <th id="sundistance" colspan="1">Distance from Sun<br>(10<sup>6</sup>km)</th>
+        <th id="temp" colspan="1">Mean temperature<br>(&deg;C)</th>
+        <th id="moonsnumb" colspan="1">Number of moons</th>
+        <th id="notes" colspan="1">Notes</th>
+      </tr>
+    </thead>
+    <!--23520218-PhanHuuDai-->
+    <colgroup>
+      <col span="2">
+      <col style="border: 2px solid black;">
+    </colgroup>
+    <!--23520218-PhanHuuDai-->
+    <tbody>
+        <tr>
+            <th id="terpla" rowspan="4" colspan="2">Terrestrial planets</th>
+            <td headers="name terpla">Mercury</td>
+            <td headers="mass terpla">0.330</td>
+            <td headers="diameter terpla">4,879</td>
+            <td headers="density terpla">5427</td>
+            <td headers="gravity terpla">3.7</td>
+            <td headers="daylenght terpla">4222.6</td>
+            <td headers="sundistance terpla">57.9</td>
+            <td headers="temp terpla">167</td>
+            <td headers="moonsnumb terpla">0</td>
+            <td headers="notes terpla">Closest to the Sun</td>
+        </tr>
+        <tr>
+            <td headers="name terpla">Venus</td>
+            <td headers="mass terpla">4.87</td>
+            <td headers="diameter terpla">12,104</td>
+            <td headers="density terpla">5243</td>
+            <td headers="gravity terpla">8.9</td>
+            <td headers="daylenght terpla">2802.0</td>
+            <td headers="sundistance terpla">108.2</td>
+            <td headers="temp terpla">464</td>
+            <td headers="moonsnumb terpla">0</td>
+        </tr>
+        <tr>
+            <td headers="name terpla">Earth</td>
+            <td headers="mass terpla">5.97</td>
+            <td headers="diameter terpla">12,756</td>
+            <td headers="density terpla">5514</td>
+            <td headers="gravity terpla">9.8</td>
+            <td headers="daylenght terpla">24.0</td>
+            <td headers="sundistance terpla">149.6</td>
+            <td headers="temp terpla">15</td>
+            <td headers="moonsnumb terpla">1</td>
+            <td headers="notes terpla">Our world</td>
+        </tr>
+        <tr>
+            <td headers="name terpla">Mars</td>
+            <td headers="mass terpla">0.642</td>
+            <td headers="diameter terpla">6,792</td>
+            <td headers="density terpla">3933</td>
+            <td headers="gravity terpla">3.7</td>
+            <td headers="daylenght terpla">24.7</td>
+            <td headers="sundistance terpla">227.9</td>
+            <td headers="temp terpla">-65</td>
+            <td headers="moonsnumb terpla">2</td>
+            <td headers="notes terpla">The red planet</td>
+        </tr>
+        <tr>
+            <th rowspan="4" colspan="1">Jovian Planets</th>
+            <th id="gasgia" rowspan="2" colspan="1">Gas Giants</th>
+            <td headers="name gasgia">Jupiter</td>
+            <td headers="mass gasgia">1898</td>
+            <td headers="diameter gasgia">142,984</td>
+            <td headers="density gasgia">1326</td>
+            <td headers="gravity gasgia">23.1</td>
+            <td headers="daylenght gasgia">9.9</td>
+            <td headers="sundistance gasgia">778.6</td>
+            <td headers="temp gasgia">-110</td>
+            <td headers="moonsnumb gasgia">67</td>
+            <td headers="notes gasgia">The largest planet</td>
+        </tr>
+        <tr>
+            <td headers="name gasgia">Saturn</td>
+            <td headers="mass gasgia">568</td>
+            <td headers="diameter gasgia">120,536</td>
+            <td headers="density gasgia">687</td>
+            <td headers="gravity gasgia">9.0</td>
+            <td headers="daylenght gasgia">10.7</td>
+            <td headers="sundistance gasgia">1433.5</td>
+            <td headers="temp gasgia">-140</td>
+            <td headers="moonsnumb gasgia">62</td>
+        </tr>
+        <tr>
+            <th id="icegia" rowspan="2" colspan="1">Ice Giants</th>
+            <td headers="name icegia">Uranus</td>
+            <td headers="mass icegia">86.8</td>
+            <td headers="diameter icegia">51,118</td>
+            <td headers="density icegia">1271</td>
+            <td headers="gravity icegia">8.7</td>
+            <td headers="daylenght icegia">17.2</td>
+            <td headers="sundistance icegia">2872.5</td>
+            <td headers="temp icegia">-195</td>
+            <td headers="moonsnumb icegia">27</td>
+        </tr>
+        <tr>
+            <td headers="name icegia">Neptune</td>
+            <td headers="mass icegia">102</td>
+            <td headers="diameter icegia">49,528</td>
+            <td headers="density icegia">1638</td>
+            <td headers="gravity icegia">11.0</td>
+            <td headers="daylenght icegia">16.1</td>
+            <td headers="sundistance icegia">4495.1</td>
+            <td headers="temp icegia">-200</td>
+            <td headers="moonsnumb icegia">14</td>
+        </tr>
+        <tr>
+            <th id="dwarfpla" rowspan="1" colspan="2">Dwarf Planets</th>
+            <td headers="name dwarfpla">Pluto</td>
+            <td headers="mass dwarfpla">0.0146</td>
+            <td headers="diameter dwarfpla">2,370</td>
+            <td headers="density dwarfpla">2095</td>
+            <td headers="gravity dwarfpla">0.7</td>
+            <td headers="daylenght dwarfpla">153.3</td>
+            <td headers="sundistance dwarfpla">5906.4</td>
+            <td headers="temp dwarfpla">-225</td>
+            <td headers="moonsnumb dwarfpla">5</td>
+            <td headers="notes dwarfpla">Declassified as a planet in 2006, but this <a href="http://www.usatoday.com/story/tech/2014/10/02/pluto-planet-solar-system/16578959/">remains controversial</a>.</td>
+        </tr>
+    </tbody>
+  </table>
+</body>
+</html>
